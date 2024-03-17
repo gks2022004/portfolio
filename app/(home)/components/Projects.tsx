@@ -46,7 +46,7 @@ function Projects() {
     <div className='py-10 p-5 sm:p-0'>
       
       <Title text='Projects 👨🏻‍💻'
-       className='flex flex-col items-center justify-center -rotate-6 cursor-pointer' />
+       className='flex flex-col items-center justify-center cursor-pointer' />
     
      <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
       {projects.map((project,index) => {

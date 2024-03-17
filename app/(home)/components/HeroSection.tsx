@@ -9,7 +9,7 @@ function HeroSection() {
       
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-4xl lg:text-7xl font-bold'>Nice to meet you! 😊
-            <br/> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Gaurav😎"}</span>
+            <br/> <span className='underline underline-offset-8 decoration-green-500'>{"I'm Gaurav."}</span>
         </h1>
         <p className='md:w-96 text-lg text-gray-300'>
            {" Based in India, I'm a FullStack developer and a blockchain developer exploring the wonders of web3 and building a modern web application that users love."}
