@@ -16,8 +16,8 @@ function HeroSection() {
         </p>
                  
 
-        <Link href="mailto:imgauravkumar7@gmail.com" passHref>
-    <div className="inline-block group p-4">
+        <Link href="mailto:imgauravkumar7@gmail.com">
+    <div className="inline-block group p-3">
         <Title text="Contact Me 📫" />
     </div>
 </Link>

@@ -106,6 +106,12 @@ const config = {
       },
     },
   },
+  variants: {
+      extend: {
+        textColor: ['group-hover'],
+        borderColor: ['group-hover'],
+      },
+  },
   plugins: [require("tailwindcss-animate"), addVariablesForColors, function ({ matchUtilities, theme }: any) {
     matchUtilities(
       {

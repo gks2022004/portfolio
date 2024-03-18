@@ -52,7 +52,7 @@ function Projects() {
       {projects.map((project,index) => {
         return <Link href={project.Link} key={index}>
 
-          <div className={cn("p-5 rounded-md", project.background)}>
+          <div className={cn("p-1 rounded-md", project.background)}>
 
             <DirectionAwareHover
             imageUrl={project.cover} className='w-full space-y-5 cursor-pointer'>
