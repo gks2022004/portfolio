@@ -3,6 +3,7 @@ import React from 'react'
 import { MovingBorderBtn } from '../../../components/ui/moving-border'
 import Title from './Title'
 
+
 function HeroSection() {
   return (
     <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
@@ -15,12 +16,11 @@ function HeroSection() {
            {" Based in India, I'm a FullStack developer and a blockchain developer exploring the wonders of web3 and building a modern web application that users love."}
         </p>
                  
-
         <Link href="mailto:imgauravkumar7@gmail.com">
-    <div className="inline-block group p-3">
-        <Title text="Contact Me 📫" />
-    </div>
-</Link>
+            <div className="inline-block group p-3">
+              <Title text="Contact Me 📫" />
+            </div>
+        </Link>
 
 
 

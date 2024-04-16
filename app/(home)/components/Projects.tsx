@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { SiCss3, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss } from 'react-icons/si';
+import { SiCss3, SiEthereum, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiSolidity, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
@@ -8,38 +8,39 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 function Projects() {
     const projects =[
         {
-          title: "EzzeSwap",
-          tech: [SiReact, SiNodedotjs, SiCss3],
-          Link: "",
-          cover: "/project-2.png",
+          title: "DEX",
+          tech: [SiSolidity, SiNextdotjs, SiCss3, SiTypescript, SiEthereum],
+          Link: "https://dex-peach.vercel.app/",
+          cover: "/project-3.png",
           background: "bg-indigo-500",
 
         },
         {
           title: "Eth-transfer-Dapp",
-          tech: [SiNextdotjs,SiTailwindcss],
-          Link: "",
+          tech: [SiNextdotjs,SiTailwindcss, SiTypescript],
+          Link: "https://eth-transfer-d-app-nine.vercel.app/",
           cover: "/project-2.png",
           background: "bg-green-500",
 
         },
         {
-          title: "Weather-app",
-          tech: [SiJavascript,SiCss3],
-          Link: "",
-          cover: "/project-2.png",
+          title: "Buy-Me-Coffee",
+          tech: [SiSolidity, SiNextdotjs, SiCss3, SiTypescript,SiEthereum],
+          Link: "https://buy-me-coffee-dapp-weld.vercel.app/",
+          cover: "/project-4.png",
           background: "bg-green-500",
 
         },
         {
-          title: "Hay hay hay ",
-          tech: [SiJavascript,SiCss3],
+          title: "Personal-portfolio",
+          tech: [SiTypescript, SiNextdotjs, SiTailwindcss],
           Link: "",
-          cover: "/project-2.png",
+          cover: "/img2.png",
           background: "bg-indigo-500",
 
         } 
     ];
+    
 
   return (
    
