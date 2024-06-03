@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { SiCss3, SiEthereum, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiSolidity, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiCss3, SiEthereum, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiRemix, SiSolidity, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
@@ -24,21 +24,30 @@ function Projects() {
 
         },
         {
-          title: "Buy-Me-Coffee",
-          tech: [SiSolidity, SiNextdotjs, SiCss3, SiTypescript,SiEthereum],
-          Link: "https://buy-me-coffee-dapp-weld.vercel.app/",
-          cover: "/project-4.png",
+          title: "Staking-Dapp",
+          tech: [SiSolidity,SiReact, SiCss3],
+          Link: "https://staking-dapp-tau-khaki.vercel.app/",
+          cover: "/project-5.png",
           background: "bg-green-500",
 
         },
         {
           title: "Personal-portfolio",
           tech: [SiTypescript, SiNextdotjs, SiTailwindcss],
-          Link: "",
+          Link: "https://gauravkumar-eight.vercel.app/",
           cover: "/img2.png",
           background: "bg-indigo-500",
 
-        } 
+        },
+        {
+          title: "Buy-Me-Coffee",
+          tech: [SiSolidity, SiNextdotjs, SiCss3, SiTypescript,SiEthereum],
+          Link: "https://buy-me-coffee-dapp-weld.vercel.app/",
+          cover: "/project-4.png",
+          background: "bg-indigo-500",
+
+        },
+       
     ];
     
 

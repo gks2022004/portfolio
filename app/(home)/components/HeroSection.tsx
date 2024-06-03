@@ -1,10 +1,15 @@
-import Link from 'next/dist/client/link'
 import React from 'react'
 import { MovingBorderBtn } from '../../../components/ui/moving-border'
 import Title from './Title'
+import Link from 'next/link'
+
+
 
 
 function HeroSection() {
+    
+  const resumeUrl="https://drive.google.com/file/d/12YEC-BAOZII42BfUuxd604OMKsVaEy2t/view?usp=drive_link";
+
   return (
     <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
       
@@ -15,16 +20,27 @@ function HeroSection() {
         <p className='md:w-96 text-lg text-gray-300'>
            {" Based in India, I'm a FullStack developer and a blockchain developer exploring the wonders of web3 and building a modern web application that users love."}
         </p>
-                 
+
+
+
         <Link href="mailto:imgauravkumar7@gmail.com">
             <div className="inline-block group p-3">
               <Title text="Contact Me 📫" />
             </div>
+  </Link> 
+   
+      {/* <Link href ={"mailto:imgauravkumar7@gmail.com"} className='inline-block group p-3'>
+            <div>
+              <h1 className='text-3xl font-bold group-hover:text-green-400 transition-all'>Contact me 📫</h1>
+              <div className='w-40 h-2 bg-green-500 rounded-full'></div>
+              <div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2'></div>
+            </div>
         </Link>
-
-
+  */}
+      
 
       </div>
+     
 
       <div className='relative'>
 
@@ -47,10 +63,12 @@ function HeroSection() {
         </div>
 
         <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10'>
-
+    
+       <Link href={resumeUrl} target='blank'>
         <MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold'>
             <p>📢 Available for work</p>
         </MovingBorderBtn>
+        </Link>
 
         </div>
       </div>

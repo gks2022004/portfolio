@@ -24,6 +24,7 @@ const socials = [
         Label: "X",
         Icon: SiX,
     },
+   
 ]
 
   return (
