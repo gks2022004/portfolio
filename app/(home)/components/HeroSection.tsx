@@ -66,7 +66,7 @@ function HeroSection() {
     
        <Link href={resumeUrl} target='blank'>
         <MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold'>
-            <p>📢 Available for work</p>
+            <p>My Resume 📢</p>
         </MovingBorderBtn>
         </Link>
 
