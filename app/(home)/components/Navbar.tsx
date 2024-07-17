@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/dist/client/link';
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin, SiX } from "react-icons/si";
 import { cn } from '@/lib/utils';
 
 export default function Navbar({className}:{className ?:string}) {
@@ -24,6 +24,11 @@ const socials = [
         Label: "X",
         Icon: SiX,
     },
+    {
+        Link: "mailto:imgauravkumar7@gmail.com",
+        Label: "Gmail",
+        Icon: SiGmail,
+    }
    
 ]
 
