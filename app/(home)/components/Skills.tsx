@@ -3,7 +3,7 @@
 import React from 'react';
 import Title from './Title';
 import { HoverEffect } from '@/components/ui/card-hover-effects';
-import { SiGit, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiSolidity, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiEthereum, SiGit, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRust, SiSolidity, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 function Skills() {
 
@@ -44,6 +44,18 @@ function Skills() {
     {
       text: "Nodejs",
       Icon: SiNodedotjs,
+    },
+    {
+      text: "PostgreSQL",
+      Icon: SiPostgresql,
+    },
+    {
+      text: "Ethereum",
+      Icon: SiEthereum,
+    },
+    {
+      text: "Rust",
+      Icon: SiRust,
     },
   ];
 
