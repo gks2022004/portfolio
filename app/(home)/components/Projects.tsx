@@ -26,7 +26,7 @@ function Projects() {
         {
           title: "Staking-Dapp",
           tech: [SiSolidity,SiReact, SiCss3],
-          Link: "https://staking-dapp-tau-khaki.vercel.app/",
+          Link: "https://staking-dapp-7.vercel.app/",
           cover: "/project-5.png",
           background: "bg-green-500",
 
