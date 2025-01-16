@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { SiCss3, SiEthereum, SiJavascript, SiJsonwebtokens, SiLeaflet, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRemix, SiSocketdotio, SiSolidity, SiStripe, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiAxios, SiCss3, SiEthereum, SiJavascript, SiJsonwebtokens, SiLeaflet, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRemix, SiSocketdotio, SiSolidity, SiStripe, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
@@ -25,9 +25,33 @@ function Projects() {
         },
         {
           title: "Staking-Dapp",
-          tech: [SiSolidity,SiReact, SiCss3],
+          tech: [SiSolidity,SiTypescript, SiTailwindcss, SiEthereum],
           Link: "https://staking-dapp-7.vercel.app/",
           cover: "/project-5.png",
+          background: "bg-indigo-500",
+
+        },
+        {
+          title: "Crypto-Wallet",
+          tech: [SiTypescript, SiEthereum, SiAxios],
+          Link: "https://cryptowallet-virid.vercel.app/",
+          cover: "/project-4.png",
+          background: "bg-green-500",
+        },
+        
+        {
+          title: "Realtime-device-tracker",
+          tech: [SiJavascript,SiSocketdotio,SiNodedotjs,SiLeaflet],
+          Link: "https://realtime-device-tracker.glitch.me/",
+          cover: "/project-7.png",
+          background: "bg-indigo-500",
+
+        },
+        {
+          title: "MERN-Ecommerce-pathshala",
+          tech: [SiReact, SiJavascript, SiNodedotjs, SiTailwindcss, SiMongodb, SiStripe, SiJsonwebtokens],
+          Link: "https://mern-ecommerce-pathshala.vercel.app/",
+          cover: "/project-6.1.png",
           background: "bg-green-500",
 
         },
@@ -38,31 +62,7 @@ function Projects() {
           cover: "/img2.png",
           background: "bg-indigo-500",
 
-        },
-        {
-          title: "Realtime-device-tracker",
-          tech: [SiJavascript,SiSocketdotio,SiNodedotjs,SiLeaflet],
-          Link: "https://realtime-device-tracker.glitch.me/",
-          cover: "/project-7.png",
-          background: "bg-green-500",
-
-        },
-        {
-          title: "MERN-Ecommerce-pathshala",
-          tech: [SiReact, SiJavascript, SiNodedotjs, SiTailwindcss, SiMongodb, SiStripe, SiJsonwebtokens],
-          Link: "https://mern-ecommerce-pathshala.vercel.app/",
-          cover: "/project-6.1.png",
-          background: "bg-indigo-500",
-
-        },
-        {
-          title: "Buy-Me-Coffee",
-          tech: [SiSolidity, SiNextdotjs, SiCss3, SiTypescript,SiEthereum],
-          Link: "https://buy-me-coffee-dapp-weld.vercel.app/",
-          cover: "/project-4.png",
-          background: "bg-indigo-500",
-
-        },
+        }
        
         
     ];
