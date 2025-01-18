@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { SiAxios, SiCss3, SiEthereum, SiJavascript, SiJsonwebtokens, SiLeaflet, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRemix, SiSocketdotio, SiSolidity, SiStripe, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiAxios, SiCss3, SiEthereum, SiIpfs, SiJavascript, SiJsonwebtokens, SiLeaflet, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRemix, SiSocketdotio, SiSolidity, SiStripe, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
@@ -13,14 +13,6 @@ function Projects() {
           Link: "https://dex-peach.vercel.app/",
           cover: "/project-3.png",
           background: "bg-indigo-500",
-
-        },
-        {
-          title: "Eth-transfer-Dapp",
-          tech: [SiNextdotjs,SiTailwindcss, SiTypescript],
-          Link: "https://eth-transfer-d-app-nine.vercel.app/",
-          cover: "/project-2.png",
-          background: "bg-green-500",
 
         },
         {
@@ -56,11 +48,27 @@ function Projects() {
 
         },
         {
+          title: "NFT-MarketPlace",
+          tech: [SiReact, SiNextdotjs, SiTailwindcss, SiSolidity, SiAxios, SiIpfs],
+          Link: "https://github.com/gks2022004/NFTMarketPlace/",
+          cover: "/project-8.png",
+          background: "bg-indigo-500",
+
+        },
+        {
+          title: "Eth-transfer-Dapp",
+          tech: [SiNextdotjs,SiTailwindcss, SiTypescript],
+          Link: "https://eth-transfer-d-app-nine.vercel.app/",
+          cover: "/project-2.png",
+          background: "bg-green-500",
+
+        },
+        {
           title: "Personal-portfolio",
           tech: [SiTypescript, SiNextdotjs, SiTailwindcss],
           Link: "https://gauravkumar-eight.vercel.app/",
           cover: "/img2.png",
-          background: "bg-indigo-500",
+          background: "bg-green-500",
 
         }
        
